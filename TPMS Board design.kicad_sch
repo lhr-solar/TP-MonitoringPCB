@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ff7652e7-1ab4-4f37-a8e8-5ad5f4b82e4c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,14 +76,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -96,14 +98,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -143,10 +145,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -213,19 +218,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -246,8 +251,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -257,14 +262,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -340,9 +345,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -415,7 +423,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -427,7 +435,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -476,11 +484,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -550,10 +563,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -562,10 +575,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -611,11 +624,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Crystal"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -681,17 +699,6 @@
 				)
 			)
 			(symbol "Crystal_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
@@ -710,6 +717,17 @@
 					)
 					(stroke
 						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -779,9 +797,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:FerriteBead_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -854,7 +875,7 @@
 			(symbol "FerriteBead_Small_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
 						(width 0)
@@ -878,7 +899,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
 						(width 0)
@@ -927,9 +948,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1048,6 +1072,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ESP32-C3:ESP32-C3"
 			(pin_names
@@ -1155,6 +1180,24 @@
 					)
 				)
 				(pin input line
+					(at -27.94 15.24 0)
+					(length 5.08)
+					(name "CHIP_EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -27.94 10.16 0)
 					(length 5.08)
 					(name "LNA_IN"
@@ -1173,6 +1216,96 @@
 					)
 				)
 				(pin bidirectional line
+					(at -27.94 5.08 0)
+					(length 5.08)
+					(name "GPIO0/XTAL_32K_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 2.54 0)
+					(length 5.08)
+					(name "GPIO1/XTAL_32K_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -2.54 0)
+					(length 5.08)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -5.08 0)
+					(length 5.08)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -10.16 0)
+					(length 5.08)
+					(name "GPIO4/MTMS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at -27.94 -12.7 0)
 					(length 5.08)
 					(name "GPIO5/MTDI"
@@ -1183,24 +1316,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 17.78 180)
-					(length 5.08)
-					(name "VDD3P3_RTC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1237,6 +1352,168 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -27.94 -22.86 0)
+					(length 5.08)
+					(name "XTAL_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -27.94 -25.4 0)
+					(length 5.08)
+					(name "XTAL_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 30.48 180)
+					(length 5.08)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 27.94 180)
+					(length 5.08)
+					(name "VDDA__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 25.4 180)
+					(length 5.08)
+					(name "VDD3P3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 22.86 180)
+					(length 5.08)
+					(name "VDD3P3__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 20.32 180)
+					(length 5.08)
+					(name "VDD_SPI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 17.78 180)
+					(length 5.08)
+					(name "VDD3P3_RTC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 15.24 180)
+					(length 5.08)
+					(name "VDD3P3_CPU"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1298,42 +1575,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 27.94 15.24 180)
-					(length 5.08)
-					(name "VDD3P3_CPU"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 20.32 180)
-					(length 5.08)
-					(name "VDD_SPI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 27.94 0 180)
 					(length 5.08)
@@ -1345,24 +1586,6 @@
 						)
 					)
 					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 25.4 180)
-					(length 5.08)
-					(name "VDD3P3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1532,96 +1755,6 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -27.94 -22.86 0)
-					(length 5.08)
-					(name "XTAL_N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 22.86 180)
-					(length 5.08)
-					(name "VDD3P3__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -27.94 -25.4 0)
-					(length 5.08)
-					(name "XTAL_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 30.48 180)
-					(length 5.08)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 27.94 180)
-					(length 5.08)
-					(name "VDDA__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 27.94 -35.56 180)
 					(length 5.08)
@@ -1640,120 +1773,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -27.94 5.08 0)
-					(length 5.08)
-					(name "GPIO0/XTAL_32K_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 2.54 0)
-					(length 5.08)
-					(name "GPIO1/XTAL_32K_N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -2.54 0)
-					(length 5.08)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -27.94 15.24 0)
-					(length 5.08)
-					(name "CHIP_EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -5.08 0)
-					(length 5.08)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -10.16 0)
-					(length 5.08)
-					(name "GPIO4/MTMS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Small_Open"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -1844,9 +1874,9 @@
 			)
 			(symbol "Jumper_2_Small_Open_0_1"
 				(arc
-					(start 0.762 1.0196)
+					(start -0.762 1.0196)
 					(mid 0 1.2729)
-					(end -0.762 1.0196)
+					(end 0.762 1.0196)
 					(stroke
 						(width 0)
 						(type default)
@@ -1894,12 +1924,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1971,7 +2006,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1983,7 +2018,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2014,12 +2049,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2091,7 +2131,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2103,7 +2143,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2134,12 +2174,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2211,7 +2256,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2223,7 +2268,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2254,12 +2299,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2350,12 +2400,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2446,6 +2501,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "utsvt-chips:ADM3055E"
 			(pin_names
@@ -2524,240 +2580,6 @@
 			)
 			(symbol "ADM3055E_1_1"
 				(pin power_in line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "GND_In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "GND_In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 1.27 180)
-					(length 5.08)
-					(name "GND_ISO_In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -13.97 180)
-					(length 5.08)
-					(name "RS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -8.89 180)
-					(length 5.08)
-					(name "CAN_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -6.35 180)
-					(length 5.08)
-					(name "CAN_H"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 3.81 180)
-					(length 5.08)
-					(name "GND_ISO_In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 13.97 180)
-					(length 5.08)
-					(name "V_ISO_In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -11.43 180)
-					(length 5.08)
-					(name "AUX_Out"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 6.35 180)
-					(length 5.08)
-					(name "GND_ISO_Out"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 11.43 180)
-					(length 5.08)
-					(name "V_ISO_Out"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "GND_In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 8.89 180)
-					(length 5.08)
-					(name "GND_ISO_Out"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -17.78 12.7 0)
 					(length 5.08)
 					(name "V_In"
@@ -2793,6 +2615,78 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "GND_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "GND_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "GND_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at -17.78 -5.08 0)
 					(length 5.08)
@@ -2804,6 +2698,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "AUX_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2830,24 +2742,6 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -17.78 -12.7 0)
 					(length 5.08)
 					(name "STDBY"
@@ -2865,17 +2759,179 @@
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 -7.62 0)
+				(pin power_in line
+					(at 17.78 13.97 180)
 					(length 5.08)
-					(name "AUX_In"
+					(name "V_ISO_In"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 11.43 180)
+					(length 5.08)
+					(name "V_ISO_Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 8.89 180)
+					(length 5.08)
+					(name "GND_ISO_Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "GND_ISO_Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "GND_ISO_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 1.27 180)
+					(length 5.08)
+					(name "GND_ISO_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -6.35 180)
+					(length 5.08)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -8.89 180)
+					(length 5.08)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -11.43 180)
+					(length 5.08)
+					(name "AUX_Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -13.97 180)
+					(length 5.08)
+					(name "RS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2884,6 +2940,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "utsvt-chips:CDSOT23-T24CAN"
 			(exclude_from_sim no)
@@ -3001,7 +3058,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Must be close\nto V_ISO_Out"
+		(exclude_from_sim no)
+		(at 163.83 115.57 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "37fb5a87-5944-4d55-bab6-c22cf3e320b8")
+	)
+	(text "CAN Bus\nProtection"
+		(exclude_from_sim no)
+		(at 217.17 115.57 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "546a0e43-5f7f-4144-bad4-7affee88aadc")
+	)
+	(text "Must be close\nto V_ISO_In"
+		(exclude_from_sim no)
+		(at 190.5 123.19 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "8513dfb8-df94-4618-8871-989e620e017c")
 	)
 	(junction
 		(at 157.48 134.62)
@@ -3118,6 +3209,12 @@
 		(uuid "77a98719-44c6-463a-977c-71bc68481373")
 	)
 	(junction
+		(at 15.24 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e1b3e7-9b5e-4b2f-bd65-2d528033b3fd")
+	)
+	(junction
 		(at 31.75 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3140,12 +3237,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c077a28-ca72-40b1-b290-e3111f84b936")
-	)
-	(junction
-		(at 15.24 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91acade2-04af-4203-9fb3-23eb10185c8b")
 	)
 	(junction
 		(at 209.55 127)
@@ -3401,16 +3492,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 48.26) (xy 15.24 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dc311c6-0885-47a7-b1fb-da82efc6f00b")
-	)
-	(wire
-		(pts
 			(xy 168.91 154.94) (xy 180.34 154.94)
 		)
 		(stroke
@@ -3451,16 +3532,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 55.88) (xy 19.05 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2070cb57-b29a-4e17-b25d-eef1d7223970")
-	)
-	(wire
-		(pts
 			(xy 107.95 130.81) (xy 107.95 132.08)
 		)
 		(stroke
@@ -3478,6 +3549,16 @@
 			(type default)
 		)
 		(uuid "249508eb-3d47-4a83-9c1f-3e3c94970d1b")
+	)
+	(wire
+		(pts
+			(xy 25.4 48.26) (xy 31.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a412f00-5fc6-4b3b-bb6f-10d8d86d5ff9")
 	)
 	(wire
 		(pts
@@ -3538,6 +3619,16 @@
 			(type default)
 		)
 		(uuid "3086f3cb-3ad2-4069-9083-d826c8c86822")
+	)
+	(wire
+		(pts
+			(xy 15.24 55.88) (xy 15.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34540212-d14b-4f3e-8323-351c3c061416")
 	)
 	(wire
 		(pts
@@ -3701,16 +3792,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 48.26) (xy 31.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5974489c-a0cc-4a5f-bd20-d144091a98c4")
-	)
-	(wire
-		(pts
 			(xy 107.95 130.81) (xy 116.84 130.81)
 		)
 		(stroke
@@ -3811,7 +3892,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 55.88) (xy 15.24 58.42)
+			(xy 15.24 48.26) (xy 15.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4068,16 +4149,6 @@
 			(type default)
 		)
 		(uuid "914fec0d-3526-480c-8961-759c9cefa912")
-	)
-	(wire
-		(pts
-			(xy 26.67 55.88) (xy 31.75 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9286c116-b6a8-4a09-9884-619159d074d5")
 	)
 	(wire
 		(pts
@@ -4351,6 +4422,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 55.88) (xy 17.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c720c29e-6e5a-4c47-8d6e-2e70df051cf0")
+	)
+	(wire
+		(pts
 			(xy 232.41 132.08) (xy 232.41 149.86)
 		)
 		(stroke
@@ -4461,16 +4542,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 48.26) (xy 15.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bd7307-5559-4034-9346-2ca685a29bb3")
-	)
-	(wire
-		(pts
 			(xy 107.95 36.83) (xy 107.95 39.37)
 		)
 		(stroke
@@ -4498,6 +4569,16 @@
 			(type default)
 		)
 		(uuid "db398e52-5496-4552-b883-af60ffafdc13")
+	)
+	(wire
+		(pts
+			(xy 25.4 55.88) (xy 31.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc28b3d8-5639-4a71-af37-94796c6a3a7c")
 	)
 	(wire
 		(pts
@@ -4739,42 +4820,18 @@
 		)
 		(uuid "fe93ec68-987e-4a1c-abb7-68342a432f3d")
 	)
-	(text "Must be close\nto V_ISO_Out"
-		(exclude_from_sim no)
-		(at 163.83 115.57 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 15.24 48.26) (xy 17.78 48.26)
 		)
-		(uuid "37fb5a87-5944-4d55-bab6-c22cf3e320b8")
-	)
-	(text "CAN Bus\nProtection"
-		(exclude_from_sim no)
-		(at 217.17 115.57 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "546a0e43-5f7f-4144-bad4-7affee88aadc")
-	)
-	(text "Must be close\nto V_ISO_In"
-		(exclude_from_sim no)
-		(at 190.5 123.19 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "8513dfb8-df94-4618-8871-989e620e017c")
+		(uuid "fedca6e8-7334-4367-a005-a9c2a25049ff")
 	)
 	(label "CAN_L"
 		(at 152.4 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4785,7 +4842,6 @@
 	)
 	(label "TERM_L"
 		(at 232.41 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4796,7 +4852,6 @@
 	)
 	(label "TERM_H"
 		(at 227.33 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4807,7 +4862,6 @@
 	)
 	(label "RSlope"
 		(at 152.4 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4818,7 +4872,6 @@
 	)
 	(label "CAN_H"
 		(at 152.4 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5609,7 +5662,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 22.86 48.26 90)
+		(at 21.59 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5617,7 +5670,7 @@
 		(dnp no)
 		(uuid "3df52d4c-e692-4d64-b797-d6914bd03138")
 		(property "Reference" "C10"
-			(at 22.86 42.164 90)
+			(at 21.59 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5678,7 @@
 			)
 		)
 		(property "Value" "18Pf"
-			(at 22.86 44.704 90)
+			(at 21.59 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 26.67 47.2948 0)
+			(at 25.4 47.2948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 48.26 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5704,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 22.86 48.26 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +7584,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 22.86 55.88 90)
+		(at 21.59 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7539,7 +7592,7 @@
 		(dnp no)
 		(uuid "e5fc956b-7294-46a4-9fa1-8864485a0e1f")
 		(property "Reference" "C11"
-			(at 22.86 59.436 90)
+			(at 21.59 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +7600,7 @@
 			)
 		)
 		(property "Value" "18pf"
-			(at 23.114 62.23 90)
+			(at 21.844 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7609,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 26.67 54.9148 0)
+			(at 25.4 54.9148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 55.88 0)
+			(at 21.59 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7627,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 22.86 55.88 0)
+			(at 21.59 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,4 +7928,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -3401,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 48.26) (xy 15.24 48.26)
+			(xy 17.78 48.26) (xy 15.24 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 55.88) (xy 19.05 55.88)
+			(xy 15.24 55.88) (xy 21.59 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3701,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 48.26) (xy 31.75 48.26)
+			(xy 25.4 48.26) (xy 31.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4071,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 31.75 55.88)
+			(xy 29.21 55.88) (xy 31.75 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5609,7 +5609,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 22.86 48.26 90)
+		(at 21.59 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5617,7 +5617,7 @@
 		(dnp no)
 		(uuid "3df52d4c-e692-4d64-b797-d6914bd03138")
 		(property "Reference" "C10"
-			(at 22.86 42.164 90)
+			(at 21.59 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5625,7 @@
 			)
 		)
 		(property "Value" "18Pf"
-			(at 22.86 44.704 90)
+			(at 21.59 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5633,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 26.67 47.2948 0)
+			(at 25.4 47.2948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 48.26 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5651,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 22.86 48.26 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +7531,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 22.86 55.88 90)
+		(at 25.4 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7539,7 +7539,7 @@
 		(dnp no)
 		(uuid "e5fc956b-7294-46a4-9fa1-8864485a0e1f")
 		(property "Reference" "C11"
-			(at 22.86 59.436 90)
+			(at 25.4 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +7547,7 @@
 			)
 		)
 		(property "Value" "18pf"
-			(at 23.114 62.23 90)
+			(at 25.654 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7556,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 26.67 54.9148 0)
+			(at 29.21 54.9148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 55.88 0)
+			(at 25.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7574,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 22.86 55.88 0)
+			(at 25.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
